@@ -14,7 +14,7 @@ Detects a firmware backdoor on some Hikvision cameras by checking a secret argum
 -- |   Firmware backdoor in some models of Hikvision cameras
 -- |     State: VULNERABLE
 -- |     Risk factor: High
--- |       Hikvision cameras have been found with a firmware backdoor allowing for admin password changes using a "secret" argument value.
+-- |       Hikvision camera has a firmware backdoor.
 -- |       
 -- |     References:
 -- |_      https://savenas.lt
@@ -41,7 +41,7 @@ action = function(host, port)
     state = vulns.STATE.NOT_VULN,
     risk_factor = "High",
     description = [[
-Hikvision cameras have been found with a firmware backdoor allowing for admin password changes using a "secret" argument value.
+Hikvision cameras has a firmware backdoor.
 ]],
     references = {
       'https://savenas.lt',
