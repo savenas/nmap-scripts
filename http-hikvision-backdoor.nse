@@ -37,7 +37,7 @@ action = function(host, port)
   local hikvision = response.body 
 
   local vuln_table = {
-    title = "Firmware backdoor in some models of Hikvision cameras",
+    title = "Hikvision Camera Backdoor",
     state = vulns.STATE.NOT_VULN,
     risk_factor = "High",
     description = [[
