@@ -1,18 +1,12 @@
 # nmap scripts
 
-Checking Hikvision cameras 
-
-Copy script into nmap script directory:
-
-```
-on macOS /usr/local/Cellar/nmap/7.80_1/share/nmap/scripts
-on Linux /usr/share/nmap/scripts
-```
-
+Check for Access control bypass in Hikvision IP Cameras
 
 
 Usage
 
 ```
-nmap -sV --script http-hikvision-backdoor <target> -p 80,443
+git clone https://github.com/savenas/nmap-scripts
+cd nmap-scripts
+nmap --script=http-hikvision-backdoor.nse -p 80,443 192.168.0.1/24 -Pn --open
 ```
