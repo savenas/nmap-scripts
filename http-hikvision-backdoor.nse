@@ -4,7 +4,7 @@ Detects a firmware backdoor on some Hikvision cameras by checking a secret argum
 
 ---
 -- @usage
--- nmap -sV --script http-hikvision-backdoor <target> -p 80,443
+-- nmap --script=http-hikvision-backdoor.nse -p 80,443 192.168.0.1/24 -Pn --open
 --
 -- @output
 -- PORT   STATE SERVICE
