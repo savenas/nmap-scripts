@@ -17,7 +17,7 @@ Detects a firmware backdoor on some Hikvision cameras by checking a secret argum
 -- |       Hikvision camera has a firmware backdoor.
 -- |       
 -- |     References:
--- |_      https://savenas.lt
+-- |_      https://medium.com/@tomas_savenas/hikvision-camera-backdoor-51cd3de22062
 ---
 
 author = "<@tomas_savenas>"
@@ -44,7 +44,7 @@ action = function(host, port)
 Hikvision cameras has a firmware backdoor.
 ]],
     references = {
-      'https://savenas.lt',
+      'https://medium.com/@tomas_savenas/hikvision-camera-backdoor-51cd3de22062',
     }
   }
 
